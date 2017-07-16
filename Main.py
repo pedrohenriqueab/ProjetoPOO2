@@ -1,14 +1,8 @@
-from Questao1.Model import *
+from Questão3.Pessoa import *
+from Questão3.Funcionario import *
+from Questão3.Fornecedor import *
 def main():
-    a1 = Animal("max", 3, "casa")
-    print (a1)
-
-    rex = Cachorro("rex", 5, "house", "labrador")
-    print(rex)
-    rex.vigiar()
-
-    blublu = Peixe("blublu", 2, "aquario", "triangular")
-    print(blublu)
-
-if (__name__=='__main__'):
-    main()
+    p1 = Pessoa("Pedro", "R. Coronel Lindolfo de Albuquerque", "986398762")
+    f1 = Fornecedor("Lucas", "R. João Valério", "99999-99999", "963.20", "985.56")
+if (__name__ == '__main__'):
+     main()
